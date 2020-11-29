@@ -27,19 +27,25 @@
 
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
     <div class="navbar-header">
-      <a class="navbar-brand" href="{% url 'index' %}" style=" color:red; font-family: 'Henny Penny', cursive;">Kingdom of Legends</a>
+      <a class="navbar-brand" href="/" style=" color:red; font-family: 'Henny Penny', cursive;">Kingdom of Legends</a>
     </div>
-    
+    <div class="navbar-collapse collapse" id="myNavbar" aria-expanded="false" style="height: 1px;">
     <ul class="nav navbar-nav navbar-right">
-    <li class="advertiser-button" style=""><a href="{% url 'products' %}" style="background: rgb(0,56,101);
+    <li class="advertiser-button" style=""><a href="/product/" style="background: rgb(0,56,101);
 background: linear-gradient(90deg, rgba(0,56,101,1) 0%, rgba(1,120,145,1) 35%, rgba(0,211,255,1) 100%);"><span class="glyphicon glyphicon-shopping-cart"></span> Buy Now</a></li>
-      <li class="advertiser-button" style=""><a href="{% url 'advertise' %}" style="background-color: rgb(179, 1, 16);"><span class="glyphicon glyphicon-bullhorn"></span> Advertise</a></li>
-      <li><a href="{% url 'register' %}" ><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-      <li><a href="{% url 'login' %}" ><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      <li class="advertiser-button" style=""><a href="/advertise/" style="background-color: rgb(179, 1, 16);"><span class="glyphicon glyphicon-bullhorn"></span> Advertise</a></li>
+      <li><a href="/register/"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="/login/"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
     </ul>
   </div>
-</nav>
+      </div>
+      </nav>
 {% block content %}
         
 {% endblock %}
