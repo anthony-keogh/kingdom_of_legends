@@ -1,0 +1,74 @@
+{% extends 'base.html' %}  {% load static %}
+{% block content %} 
+
+
+
+<style>
+label {
+    display: inline-block;
+    max-width: 100%;
+    font-size:20px;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+select, textarea {
+    font-family: inherit;
+    font-size: 20px;
+    line-height: inherit;
+    display: block;
+    color:black;
+}
+</style>
+<div class="container"  >
+  <h2 style="color:black; text-shadow:2px 2px white;"> </h2>
+    <div class="row">
+    
+      <div class="col-md-6">
+        <img src="/static/img/fire-logo.png" alt="Lights" class="img-rounded" style="width:400px; height:400px;">
+      </div>
+    
+    
+      <div class="col-md-6">
+        <div>
+          
+          <br>
+           
+          
+      </div>   
+        
+          <form method="post" role="form" style="height:100px;" >
+          {% csrf_token %}
+            <div>{{ packageform }}
+            <div style="height:50px;"></div>
+              <button type="submit" style="background: rgb(101,0,12);
+background: linear-gradient(90deg, rgba(101,0,12,1) 0%, rgba(145,1,23,1) 35%, rgba(255,0,44,1) 100%); height:60px; width:120px; color:white;"><a href="{% url 'purchase_product' %}" style="color:white;" >BUY NOW</a></button>
+            </div>
+          </form>
+
+      <div style="height:50px;"></div>
+          <a>
+            
+          </a>
+          <div style="height:100px;"></div>
+          
+            <p style="font-size:20px; color:#b002ad;"></p>
+            <br>
+            <p style="font-size:20px; color:#01aed2;" >Description</p>
+            <br>
+            <p style="font-size:20px; color:black;"></p>
+            <br>
+            <p style="font-size:20px; color:#01aed2;" >Additional information</p>
+            <br>
+            
+
+
+          </div>
+          
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+   {% endblock %} 
