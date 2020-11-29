@@ -18,6 +18,7 @@ import dj_database_url
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+#BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
@@ -31,13 +32,15 @@ if os.path.isfile('env.py'):
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
+#DEBUG = config('DEBUG')
 
 if os.path.isfile('env.py'):
     SECRET_KEY = os.getenv('SECRET_KEY')
     SECRET_KEY = 'thesecretkey'
 
-ALLOWED_HOSTS = ['kingdomoflegends.herokuapp.com','127.0.0.1']
+#ALLOWED_HOSTS = ['kingdomoflegends.herokuapp.com','127.0.0.1']
 
+ALLOWED_HOSTS = ['127.0.0.1']
 
 # Application definition
 
@@ -63,7 +66,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 ROOT_URLCONF = 'djangobookapp.urls'
 
 TEMPLATES = [
@@ -144,7 +147,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (
