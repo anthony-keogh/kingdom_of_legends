@@ -32,10 +32,8 @@ if os.path.isfile('env.py'):
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-
 if os.path.isfile('env.py'):
     SECRET_KEY = os.getenv('SECRET_KEY')
-else:
     SECRET_KEY = 'thesecretkey'
 
 ALLOWED_HOSTS = ['kingdomoflegends.herokuapp.com','127.0.0.1']
