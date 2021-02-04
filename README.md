@@ -2,43 +2,43 @@
 https://kingdomoflegends.herokuapp.com/
 
 
-#UX
+# UX
 
 
-#User Stories
+# User Stories
 
 
-#Design
+# Design
 
 
-#Wireframes
+# Wireframes
 
 
-#Features
+# Features
 
 
-#Technologies Used
+# Technologies Used
 
-   #Front-End Technologies
+   # Front-End Technologies
    
-   #Back-End Technologies
+   # Back-End Technologies
    
    
-#Testing
+# Testing
 
 
-#Compatibility
+# Compatibility
 
 
-#Deployment
+# Deployment
 
-  #Local Deployment
+  # Local Deployment
   
-  #Remote Deployment
+  # Remote Deployment
   
-#Credits
+# Credits
 
-#Media
+# Media
 
-#Acknowledgements
-#Credits
+# Acknowledgements
+# Credits
