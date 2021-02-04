@@ -1,4 +1,5 @@
-﻿# kingdom_of_legends
+![Optional Text](../master/static/img/kingdom-screenshot.PNG)
+
 https://kingdomoflegends.herokuapp.com/
 
 
