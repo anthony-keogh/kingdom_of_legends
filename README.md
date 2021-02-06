@@ -1,4 +1,4 @@
-![Optional Text](../master/static/img/kingdom-screenshot.PNG)
+![Optional Text](../master/static/img/kol-snippet.PNG)
 
 https://kingdomoflegends.herokuapp.com/
 
