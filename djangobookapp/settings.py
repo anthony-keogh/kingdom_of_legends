@@ -38,9 +38,9 @@ if os.path.isfile('env.py'):
     SECRET_KEY = os.getenv('SECRET_KEY')
     SECRET_KEY = 'thesecretkey'
 
-#ALLOWED_HOSTS = ['kingdomoflegends.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['kingdomoflegends.herokuapp.com','127.0.0.1']
 
-ALLOWED_HOSTS = ['127.0.0.1']
+#ALLOWED_HOSTS = ['127.0.0.1']
 
 # Application definition
 
