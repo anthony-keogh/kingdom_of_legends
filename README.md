@@ -32,6 +32,9 @@ https://jigsaw.w3.org/css-validator/
 https://jshint.com/
 http://pep8online.com/
 
+
+Testing File
+https://github.com/anthony-keogh/kingdom_of_legends/blob/master/static/img/Validations-test-django-kingdom-of-legends.docx
 # Compatibility
 
 
