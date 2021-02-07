@@ -27,14 +27,23 @@ https://kingdomoflegends.herokuapp.com/
    
 # Testing
 
-https://validator.w3.org/
-https://jigsaw.w3.org/css-validator/
-https://jshint.com/
-http://pep8online.com/
+• HTML: https://validator.w3.org/
+
+
+• CSS:  https://jigsaw.w3.org/css-validator/
+
+
+• JavaScript: https://jshint.com/
+
+
+• Python: http://pep8online.com/
 
 
 Testing File
+
 https://github.com/anthony-keogh/kingdom_of_legends/blob/master/static/img/Validations-test-django-kingdom-of-legends.docx
+
+
 # Compatibility
 
 
