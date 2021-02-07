@@ -27,6 +27,10 @@ https://kingdomoflegends.herokuapp.com/
    
 # Testing
 
+https://validator.w3.org/
+https://jigsaw.w3.org/css-validator/
+https://jshint.com/
+http://pep8online.com/
 
 # Compatibility
 
