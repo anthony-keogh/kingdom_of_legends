@@ -17,6 +17,7 @@ https://kingdomoflegends.herokuapp.com/
 
 # Wireframes
 
+![Optional Text](../master/static/img/kol-snippet.PNG)
 
 # Features
 
