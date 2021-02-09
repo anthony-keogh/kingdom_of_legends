@@ -82,10 +82,27 @@ https://github.com/anthony-keogh/kingdom_of_legends/blob/master/static/img/Valid
 
 # Compatibility
 
+• Chrome
+
+• Firefox
+
+• Safari
+
+• Internet Explorer
+
+• Edge
 
 # Deployment
 
   # Local Deployment
+  • Python
+
+  • GIT
+
+  • PIP
+
+  • Visual Studio Code(Microsoft)
+  
   
   # Remote Deployment
   
