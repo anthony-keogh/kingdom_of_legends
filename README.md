@@ -17,7 +17,9 @@ https://kingdomoflegends.herokuapp.com/
 
 # Wireframes
 
-![Optional Text](../master/static/img/kol-snippet.PNG)
+Index page wireframe below
+
+![Optional Text](../master/static/img/kingdom-wireframe.png)
 
 # Features
 
