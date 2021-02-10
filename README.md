@@ -7,7 +7,31 @@ https://kingdomoflegends.herokuapp.com/
 
 
 # User Stories
+Successful   ![Optional Text](../master/static/img/green-correct.png)
 
+Not Successful    ![Optional Text](../master/static/img/red-error.png)
+
+
+
+• The software application should load fast  ![Optional Text](../master/static/img/green-correct.png)
+
+• View all the ebooks on the app   ![Optional Text](../master/static/img/green-correct.png)
+
+• Click on any ebooks and be directed to a page with more description about that specific ebooks   ![Optional Text](../master/static/img/green-correct.png)
+
+• Click on the "Buy Now" button and be directed to the payment methods such as Stripe   ![Optional Text](../master/static/img/green-correct.png)
+
+• Press the sign up button and be shown the sign up page   ![Optional Text](../master/static/img/green-correct.png)
+
+• The sign up form to work correctly   ![Optional Text](../master/static/img/green-correct.png)
+
+• Press the login button and be shown the login page and shown information about my account   ![Optional Text](../master/static/img/green-correct.png)
+
+• The login form to work correctly   ![Optional Text](../master/static/img/green-correct.png)
+
+• ebook application to work on all browsers   ![Optional Text](../master/static/img/green-correct.png)
+
+• ebook application to should be user friendly on smartphone   ![Optional Text](../master/static/img/green-correct.png)
 
 # Design
 
