@@ -80,7 +80,6 @@ Not Successful    ![Optional Text](../master/static/img/red-error.png)
 
 Index page wireframe below
 
-![Optional Text](../master/static/img/kingdom-wireframe.png)
 
 # Features
 
