@@ -100,7 +100,7 @@ footer.page-footer{
 @media only screen and (max-width: 400px){
     footer.page-footer{
         display: block;
-        margin-top: 390px!important;
+        margin-top: 490px!important;
     
     }
 }
