@@ -3,20 +3,21 @@
 {% block content %}
 <div class="row intro">
   <div class="col-sm-4" >
-<img src="static/img/fire-logo.png" style="width:250px;margin-left:50px;margin-top:-10px; height:150px;"><br>
-  <p style="font-family: 'Henny Penny', cursive; font-size:30px; color:red; margin-left:50px;margin-top:20px;">Kingdom of Legends</p>
+<img src="static/img/ak-logo.png" style="width:150px;margin-left:17px;margin-top:-10px; height:150px;"><br>
+  <p style="font-family: 'Montserrat', sans-serif; font-size:30px; color:gold; margin-left:5%; margin-top:20px;">Software Developer & Data Engineer</p>
   <br>
-    <h1 style="margin-top:-10px;">Children stories and novels, all in one app.<h1>
+    <h4 style="margin-top:-10px;margin-left:5%; font-size:25px;">Does your business need help with web and mobile applications in Python, Java or Javascript.<h4>
 
-  <div style="margin-top:-40px;">
-  <p style="font-size:20px; color:yellow; margin-left:-5%;">€2.99 | Per Book<span style="padding:15px;" ></span> <span style="color:white;">€9.99 | Per Month</span></p>
-    <a href="{% url 'book_list' %}"><button  type="button" class="btn btn-primary">Browse</button></a>
+  <div style="margin-top:20px; margin-left:5%;">
+  
+    <a href="{% url 'about-authors' %}"><button  type="button" style="background-color:goldenrod; color:black; height: 40px;
+    width: 120px;" class="btn ">Portfolio</button></a>
     <span style="padding:25px;" ></span>
-    <a href="{% url 'register' %}"><button type="button" class="btn btn-default">Sign Up</button></div></a>
+    <a href="{% url 'register' %}"><button type="button" class="btn btn-default">About Anthony</button></div></a>
   </div>
   
   <div class="col-sm-8 cover-photo" style="padding-left:0px;">
-    <img src="static/img/new-book-cover.png" style="width:100%;height:100%;">
+    <img src="static/img/business-meeting.jpg" style="width:100%;height:100%;">
   </div>
   
 </div>
@@ -24,32 +25,32 @@
 <section style="margin-top:50px;">
 <div class="row second-section">
   <div class="col-sm-6" >
-   <img src="static/img/hot-air-balloon.jpg" style="width:100%; height:500px;">
+   <img src="static/img/people-discussion.jpg" style="width:100%; height:500px;">
     
   </div>
 
 
   <div class="col-sm-6">
 
-  <h2 style="font-family: 'Henny Penny', cursive; color:red;">Discover our new children stories</h2>
+  <h2 style="font-family: 'Montserrat', sans-serif; color:gold;">Data Engineer</h2>
   
   
-  <p style="color:white;">The must sought after authors provide your kids with memorable,<br> exciting and must read stories every week.</p>
+  <p style="color:white;">Anthony uses the best data science processes, <br> and new exciting tools to enhance any organisation.</p>
      
 
     <div>
-      <a href="{% url 'about-authors' %}"><button type="button" class="btn" style="width:200px; background-color:blue;color:white; height:50px;">About The Authors</button>
+      <a href="{% url 'about-authors' %}"><button type="button" class="btn" style="width:200px; background-color:goldenrod;color:white; height:50px;">More Info</button>
       </a>
     </div>
 <br><br><br><br>
-    <h2 style="font-family: 'Henny Penny', cursive; color:blue;">Magical children stories</h2>
+    <h2 style="font-family: 'Montserrat', sans-serif; color:gold;">Software Developer</h2>
   
   
-  <p style="color:white;">Our incredible authors have wrote magical and adventurous<br> for the kids to read or for the parents to read to their children.</p>
+  <p style="color:white;">From front-end development to back-end development such as Python.<br> Anthony provides top class services to take any Python Software application to the next level</p>
      
 
     <div>
-      <a href="{% url 'book_list' %}"><button type="button" class="btn" style="width:200px; background-color:red;color:white; height:50px;">Our Stories and Novels</button>
+      <a href="{% url 'book_list' %}"><button type="button" class="btn" style="width:200px; background-color:goldenrod;color:white; height:50px;">More Info</button>
       </a>
     </div>
 </div>
@@ -61,22 +62,22 @@
   <div class="row">
     
     <div class="col-sm-9 col-md-6" style="">
-    <h2 style="font-family: 'Henny Penny', cursive; font-size:30px; color:red;">Responsive Website/Mobile App</h2>
-      <p style="color:white;">The Kingdom of Legends App is responsive which means you can enjoy reading our stories on a desktop, tablet or smartphone. </p>
+    <h2 style="font-family: 'Montserrat', sans-serif; font-size:30px; color:gold;">Responsive Website/Mobile App</h2>
+      <p style="color:white;">Anthony provides stunning responsive designs means your company can enjoy the designs on desktop, tablet or smartphone. </p>
     <br><br>
-    <h2 style="font-family: 'Henny Penny', cursive; color:blue;">Advertise on our App</h2>
+    <h2 style="font-family: 'Montserrat', sans-serif; color:gold;">About Me</h2>
   
   
-  <p style="color:white;">Advertise your product during our pop up add while the family,<br> read our stories every week.</p>
+  <p style="color:white;"> Anthony Keogh founded Silicon Irish in 2017 which was a digital marketing service for businesses in Kerry. From there on Anthony expanded his service and skills to software development and graphic design as there was increase demand for skills and experience in this area.</p>
      
 
     <div>
-      <a href="{% url 'advertise' %}"><button type="button" class="btn" style="width:200px; background-color:red;color:white; height:50px;">Advertise details</button>
+      <a href="{% url 'about-authors' %}"><button type="button" class="btn" style="width:200px; background-color:goldenrod;color:white; height:50px;">About</button>
       </a>
     </div>
     </div>
     <div class="col-sm-3 col-md-6" >
-      <img src="static/img/responsive-web-design.jpg" style="width:100%; height:500px;">
+      <img src="static/img/laptop.jpg" style="width:100%; height:500px;">
     </div>
   </div>
 </div>
