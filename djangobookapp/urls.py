@@ -35,6 +35,7 @@ urlpatterns = [
     path('advertise_costs/',TemplateView.as_view(template_name="advertise_costs.html"), name='advertise_costs'),
     path('advertise/',TemplateView.as_view(template_name="advertise.html"), name='advertise'),
     path('aboutus/',TemplateView.as_view(template_name="aboutus.html"), name='aboutus'),
+    path('portfolio/',TemplateView.as_view(template_name="portfolio.html"), name='portfolio'),
     path('about-the-authors/',TemplateView.as_view(template_name="about-the-authors.html"), name='about-authors'),
     path('register/',register, name='register'),
     path('profile/',profile, name='profile'),
