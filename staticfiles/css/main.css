@@ -98,9 +98,17 @@ footer.page-footer{
 }
 
 @media only screen and (max-width: 400px){
+
+    .mobile-container{
+        margin-top: 400px!important;
+    }
+    .row.second-section {
+        margin-top:50px!important;
+    }
+
     footer.page-footer{
         display: block;
-        margin-top: 70px!important;
+        margin-top: 490px!important;
     
     }
 }
