@@ -74,13 +74,13 @@ h4{
 .row.intro{
     background-color: black;
     
-    height:600px;
+    height:500px;
 }
 
 .row.second-section{
     
     
-    height:600px;
+    height:500px;
 }
 a.footer-links-red{
     color: gold;
@@ -99,6 +99,15 @@ footer.page-footer{
 
 @media only screen and (max-width: 400px){
 
+    button.btn-warning{
+        margin-top: -50px;
+    }
+    h2.font-clients{
+        margin-top: 150px;
+    }
+    row.clients-row{
+        margin-top: 100px;
+    }
     .mobile-container{
         margin-top: 400px!important;
     }

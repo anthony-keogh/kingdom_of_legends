@@ -1,0 +1,160 @@
+
+body{
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    background-color: black;
+}
+
+.navbar-inverse {
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #f9f8f8;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(43, 43, 49);
+    border-radius: 10px;
+    border-color: white;
+}
+.login-paragragh{
+    color: white;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #0546fc;
+    border-color: #0546fc;
+    height: 40px;
+    width: 120px;
+}
+input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    display: block;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color:white;
+}
+.navbar-inverse .navbar-brand {
+    color: #fcf9f9;
+    font-size: 20px;
+}
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    height: 40px;
+    width: 120px;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 100px;
+    padding: 0%;
+}
+
+h3{
+    font-size: 20px;
+    color: white;
+}
+
+h4{
+    font-size: 15px;
+    color: white;
+}
+
+
+.row.intro{
+    background-color: black;
+    
+    height:500px;
+}
+
+.row.second-section{
+    
+    
+    height:500px;
+}
+a.footer-links-red{
+    color: gold;
+}
+
+p.profile-paragraph{
+    color:white;
+}
+
+
+footer.page-footer{
+    display: block;
+    margin-top: 50px!important;
+
+}
+
+@media only screen and (max-width: 400px){
+
+    button.btn-warning{
+        margin-top: -50px;
+    }
+    h2.font-clients{
+        margin-top: 150px;
+    }
+    row.clients-row{
+        margin-top: 100px;
+    }
+    .mobile-container{
+        margin-top: 400px!important;
+    }
+    .row.second-section {
+        margin-top:620px!important;
+    }
+
+    footer.page-footer{
+        display: block;
+        margin-top: 90px!important;
+    
+    }
+}
+
+@media only screen and(max-width: 400px){
+    footer.page-footer{
+        display: block;
+        margin-top: 150px!important;
+    
+    }
+    
+}
+@media only screen and (max-width: 400px){
+    .hide-on-mobile{
+    visibility: hidden;
+    }
+
+    
+}
+@media only screen and (max-width: 400px){
+    .mobile-height{
+    height: 100px;
+    }
+
+    
+}
+@media only screen and (max-width: 400px){
+    .mobile-height{
+    margin-top:50px;
+    }
+
+    
+}
+@media only screen and (max-width: 400px){
+    .mobile-height-2{
+    margin-top:550px;
+    }
+
+    
+}
