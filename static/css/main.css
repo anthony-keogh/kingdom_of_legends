@@ -98,7 +98,9 @@ footer.page-footer{
 }
 
 @media only screen and (max-width: 400px){
-
+    div.space-margin{
+        margin-top: 50px;
+    }
     button.btn-warning{
         margin-top: -50px;
     }
