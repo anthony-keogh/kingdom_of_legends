@@ -101,8 +101,8 @@ footer.page-footer{
     div.space-margin{
         margin-top: 50px;
     }
-    .mobile-break {
-        margin-top: 250px;
+    .mobile-break-section{
+        margin-top: 250px!important;
 
     }
     img.front-image{
