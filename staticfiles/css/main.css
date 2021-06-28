@@ -101,6 +101,10 @@ footer.page-footer{
     div.space-margin{
         margin-top: 50px;
     }
+
+    img.front-image{
+        width: 140%;
+    }
     button.btn-warning{
         margin-top: -50px;
     }
