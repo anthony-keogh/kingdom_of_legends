@@ -101,7 +101,10 @@ footer.page-footer{
     div.space-margin{
         margin-top: 50px;
     }
+    .mobile-break {
+        margin-top: 250px;
 
+    }
     img.front-image{
         width: 140%;
     }
