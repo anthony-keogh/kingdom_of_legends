@@ -16,34 +16,21 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path
-from accounts.views import login
+
 from home.views import index
 from django.contrib.auth import views as auth_views
 from django.views.generic import TemplateView
 from django.urls import path 
 from django.conf.urls.static import static
-from accounts.views import register, login, profile
+
 from django.urls import include, re_path
-from products import urls as products_urls
-from billing.views import purchase_product
+
 
 
 urlpatterns = [
     
     path('admin/', admin.site.urls),
-    path('', index,name='index' ),
-    path('advertise_costs/',TemplateView.as_view(template_name="advertise_costs.html"), name='advertise_costs'),
-    path('advertise/',TemplateView.as_view(template_name="advertise.html"), name='advertise'),
-    path('aboutus/',TemplateView.as_view(template_name="aboutus.html"), name='aboutus'),
-    path('portfolio/',TemplateView.as_view(template_name="portfolio.html"), name='portfolio'),
-    path('about-the-authors/',TemplateView.as_view(template_name="about-the-authors.html"), name='about-authors'),
-    path('register/',register, name='register'),
-    path('profile/',profile, name='profile'),
-    path('login/',login, name='login'),
-    path('product/', include(products_urls)),
-    path('purchase_product/',purchase_product, name='purchase_product'),
-    path('yearly_subscription/',TemplateView.as_view(template_name="yearly_subscription.html"), name='yearly_subscription'),
-    path('monthly_subscription/',TemplateView.as_view(template_name="monthly_subscription.html"), name='monthly_subscription'),
-    
+    path('', index,name='index' )
+   
    
 ]
