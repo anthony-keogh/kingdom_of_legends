@@ -1,26 +1,27 @@
 {% extends 'base.html' %}  {% load static %} 
 
 {% block content %}
-<div style="height:500px; background-color:#ff9298;">
-
-    <div class="col-md-6 img-responsive">
+<div style="height:600px;background: rgb(0,212,255);
+background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(1,111,167,1) 15%, rgba(1,32,142,1) 37%, rgba(2,0,36,1) 61%, rgba(2,0,36,1) 83%, rgba(1,0,14,1) 100%);">
+<div class="col-md-6 img-responsive" >
+       <img src="/static/img/oct-logo-11.png" style="height:400px; width:375px; ">
+     </div>
+    <div class="col-md-6 img-responsive" style="height:600px;">
     
-         <h1 style="color:#1d0140;font-family: 'Montserrat', sans-serif; font-size:xx-large;">The Python Warrior</h1>
+         <h1 style="color:white; font-family: 'Montserrat', sans-serif; font-size:70px;">The Python Warrior</h1>
          <br>
-          <p style="margin-left:20px; font-size:x-large; color:black; font-family: 'Montserrat', sans-serif;">Full Stack Python Software Developer building applications in Python, JavaScript and React</p>
+          <p style="margin-top:20px; font-size:40px; color:#ff9298; font-family: 'Montserrat', sans-serif;">Full Stack Python Software Developer.<br> Specializing in Python, JavaScript and React.</p>
     
   </div>
-     <div class="col-md-6 img-responsive">
-        <img src="/static/img/team-photo-1.jpeg" style="height:500px; width:100%;">
-     </div>
+     
 
 
 </div>
-
-<div class="mobile-break-section" style="background-color:#1d0140;">
+<br><br>
+<div class="mobile-break-section" style="background-color:#020024;">
 <br><br><br>
 <h2 class="text-center" style="margin-top:50px; font-family: 'Montserrat', sans-serif; color:#ff9298;">Service I provide</h2>
-<p class="text-center" style="margin-top:50px; font-family:22px; color:white;">
+<p class="text-center" style="margin-top:50px; font-family:22px; color:white; font-family: 'Montserrat', sans-serif;">
 
  I build software application that are built using a programming language called Python.
 <br><br>
@@ -31,17 +32,24 @@
 </p>
 <br><br><br><br>
 </div>
+<br><br><br>
 
+<h2 style="color:white;font-family: 'Montserrat', sans-serif; text-align:center;">Portfolio</h2>
+<p style="color:#ff9298;font-family: 'Montserrat', sans-serif;text-align:center;">UX & UI Designer for Mylestone Interiors. <br><br> I built ZaraGreta website from scratch using Python/Django, with JavaScript/React along with Amazon AWS.</p>
 
-<div style="height:500px; background-color:#ff9298;">
+<div >
+  <div style="display: flex;vertical-align: middle;
+  justify-content: center;
+  align-items: center;">
+    <a href="https://zaragreta.herokuapp.com/"><img src="/static/img/mys-logo-10.PNG"  style="height:400px; width:80%; margin:20px;"></a>
+  </div>
+  <br><br><br>
+  <div style="display: flex;vertical-align: middle;
+  justify-content: center;
+  align-items: center;">
+    <a href="https://mylestoneinteriors.ie/"><img src="/static/img/zaragreta-portfolio.PNG"  style="height:400px; width:80%;margin:20px;"></a>
+  </div>
+  
+</div>
 
-<h2 style="margin-left:5%; font-size:xx-large; color:#1d0140;">Portfolio</h2>
-<h2 style="margin-left:5%; font-size:large; color:black;">Python and JavaScript Ecommerce App</h2>
-<br><br>
-
-
-     <div >
-        <a href="https://zaragreta.herokuapp.com/#/"><img src="/static/img/zaragreta-portfolio.PNG" style="height:500px; width:100%;"></a>
-     </div>
-      </div>
 {% endblock %}
