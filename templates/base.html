@@ -14,10 +14,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
@@ -25,12 +25,30 @@
 <link rel="stylesheet" href="{% static 'css/main.css' %}">
 <title>{% block title %}Anthony Keogh{% endblock %}</title>
 
+<style>
+* {
+  box-sizing: border-box;
+}
 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
 
 </head>
+<br><br>
 <h2 style="color:white;font-family: 'Montserrat', sans-serif; margin-left:25px;">The Python Warrior</h2>
 
-<body style="background: rgb(0,212,255);
+<body  style="background: rgb(0,212,255);
 background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(1,111,167,1) 15%, rgba(1,32,142,1) 37%, rgba(2,0,36,1) 61%, rgba(2,0,36,1) 83%, rgba(1,0,14,1) 100%);"> 
 
 
@@ -47,7 +65,7 @@ background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(1,111,167,1) 15%, 
 
   <!-- Footer Links -->
   <div class="container text-center text-md-left mt-5" style="justify-content: center; display : flex;
-  align-items :center; color:white; font-family: 'Montserrat', sans-serif; margin-top: 150px;" >
+   color:white;font-size:16px; font-family: 'Montserrat', sans-serif; margin-top: 150px;" >
  
 <p>CONTACT
 <br><br>

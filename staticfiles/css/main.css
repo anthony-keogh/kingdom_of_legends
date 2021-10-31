@@ -1,7 +1,10 @@
 * {
     box-sizing: border-box;
+    
   }
-  
+  body{
+    overflow-x: hidden!important;
+  }
   @media only screen and (max-width: 400px){
 
     img{
@@ -17,4 +20,6 @@
     h2{
         font-size: medium!important;
     }
+
+    
 }
